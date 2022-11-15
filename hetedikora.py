@@ -19,7 +19,7 @@ plt.plot(times, spots)
 plt.show()
 
 from opcio_arazas import Option
-opt=Option("C",S_0,None,1)
+opt=Option("C", S_0, None, 1)
 vola= 0.35
 prices=[]
 deltas=[]
